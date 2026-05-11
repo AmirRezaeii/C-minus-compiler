@@ -38,7 +38,7 @@ syntax_errors.txt - Syntax errors
 
 output.txt - Three-address code
 
-##Error Handling
+## Error Handling
 
 Lexical: Panic mode recovery
 
