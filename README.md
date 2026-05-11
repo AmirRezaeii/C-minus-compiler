@@ -20,26 +20,18 @@ This compiler implements all compilation phases in a single pass:
 
 ## Usage
 
-Write C-Minus code in input.txt
-
-Run: python3 compiler.py
-
-Check outputs:
-
-tokens.txt - Token stream
-
-symbol_table.txt - Symbol table
-
-lexical_errors.txt - Lexical errors
-
-parse_tree.txt - Parse tree
-
-syntax_errors.txt - Syntax errors
-
-output.txt - Three-address code
+- **Step 1:** Write C-Minus code in `input.txt`
+- **Step 2:** Run `python3 compiler.py`
+- **Step 3:** Check outputs:
+  - `tokens.txt` - Token stream
+  - `symbol_table.txt` - Symbol table
+  - `lexical_errors.txt` - Lexical errors
+  - `parse_tree.txt` - Parse tree
+  - `syntax_errors.txt` - Syntax errors
+  - `output.txt` - Three-address code
 
 ## Error Handling
 
-Lexical: Panic mode recovery
+- **Lexical**: Panic mode recovery
 
-Syntax: Panic mode with follow sets as synchronizing sets
+- **Syntax**: Panic mode with follow sets as synchronizing sets
